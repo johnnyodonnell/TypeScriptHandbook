@@ -1,3 +1,9 @@
+// https://www.typescriptlang.org/docs/handbook/functions.html
+
+/*
+"Arrow functions capture the this where the function is created rather than
+where it is invoked"
+*/
 
 const execute = function(func) {
     return func();
