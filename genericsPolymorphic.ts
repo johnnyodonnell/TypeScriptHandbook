@@ -36,6 +36,13 @@ arr.push(2);
 arr.push(4);
 func(arr);
 
+let product = 1;
+let sum = 0;
 for (let i = 0; i < arr.length(); ++i) {
     console.log(arr.at(i));
+    sum += arr.at(i);
+    product *= arr.at(i);
 }
+
+console.log(`Sum: ${sum}`);
+console.log(`Product: ${product}`);
