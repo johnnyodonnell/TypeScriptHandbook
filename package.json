@@ -1,0 +1,23 @@
+{
+  "name": "typescripthandbook",
+  "version": "1.0.0",
+  "description": "Examples of peculiar TypeScript behavior described in the TypeScript handbook\r https://www.typescriptlang.org/docs/handbook/basic-types.html",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnyodonnell/TypeScriptHandbook.git"
+  },
+  "author": "Johnny O'Donnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnyodonnell/TypeScriptHandbook/issues"
+  },
+  "homepage": "https://github.com/johnnyodonnell/TypeScriptHandbook#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
